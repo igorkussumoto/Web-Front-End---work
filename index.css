@@ -1,0 +1,59 @@
+body {
+    background-color: black; 
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: red; 
+    text-align: center; 
+    font-size: 3em;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+p, h3 {
+    color: white;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+p strong {
+    color: red;
+}
+
+.container {
+    display: flex;  /* Ativa o flexbox */
+    justify-content: center; /* Centraliza os itens dentro do container */
+    gap: 20px; /* Espaçamento entre as sections */
+    flex-wrap: wrap; /* Permite quebrar linha se a tela for pequena */
+    max-width: 1200px; /* Define um tamanho máximo para não esticar demais */
+    margin: 0 auto; /* Centraliza o container na página */
+}
+
+.section {
+    background-color: #222; /* Cor de fundo para diferenciar as sections */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1; /* Faz as sections crescerem igualmente */
+    min-width: 300px; /* Define um tamanho mínimo */
+    max-width: 500px; /* Define um tamanho máximo */
+    text-align: center; /* Centraliza o texto */
+}
+
+.section img {
+    width: 100%; /* Faz a imagem ocupar todo o espaço da div */
+    border-radius: 10px;
+}
