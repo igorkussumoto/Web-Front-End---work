@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: red;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
@@ -67,4 +67,117 @@ table {
 tr, td {
     border: 1px solid red;
     padding: 10px;
+}
+
+p strong {
+    color: red;
+}
+
+h1 {
+    color: red; 
+    text-align: center; 
+    font-size: 3em;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+p, h3 {
+    color: white;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.section {
+    background-color: #222; 
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1; 
+    min-width: 300px; 
+    max-width: 500px; 
+    text-align: center; 
+}
+
+.section img {
+    width: 100%; 
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 40px; /* Espaço acima dos botões */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Espaço entre o conteúdo e os botões */
+    padding: 20px;
+}
+
+.button-container a {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+}
+
+
+.btn-cadastro {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cadastro:hover {
+    background-color: darkred;
+}
+
+.btn-entrar {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-entrar:hover {
+    background-color: darkred;
 }
