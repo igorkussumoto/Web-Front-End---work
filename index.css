@@ -35,25 +35,47 @@ p strong {
 }
 
 .container {
-    display: flex;  /* Ativa o flexbox */
-    justify-content: center; /* Centraliza os itens dentro do container */
-    gap: 20px; /* Espaçamento entre as sections */
-    flex-wrap: wrap; /* Permite quebrar linha se a tela for pequena */
-    max-width: 1200px; /* Define um tamanho máximo para não esticar demais */
-    margin: 0 auto; /* Centraliza o container na página */
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .section {
-    background-color: #222; /* Cor de fundo para diferenciar as sections */
+    background-color: #222; 
     padding: 20px;
     border-radius: 10px;
-    flex: 1; /* Faz as sections crescerem igualmente */
-    min-width: 300px; /* Define um tamanho mínimo */
-    max-width: 500px; /* Define um tamanho máximo */
-    text-align: center; /* Centraliza o texto */
+    flex: 1; 
+    min-width: 300px; 
+    max-width: 500px; 
+    text-align: center; 
 }
 
 .section img {
-    width: 100%; /* Faz a imagem ocupar todo o espaço da div */
+    width: 100%; 
     border-radius: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-cadastro {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cadastro:hover {
+    background-color: darkred;
 }
