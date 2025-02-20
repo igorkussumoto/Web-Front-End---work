@@ -1,12 +1,12 @@
 body {
-    background-color: black;
+    background-color: #070707;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'News Cycle', Courier;
     text-align: center;
 }
 
 header {
-    background-color: red;
+    background-color: #C60000;
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
@@ -30,9 +30,9 @@ form {
 }
 
 input {
-    background: none;
-    border: 2px solid red;
-    color: red;
+    background: black;
+    border: 2px solid #C60000;
+    color: #C60000;
     padding: 10px;
     width: 250px;
     text-align: center;
@@ -41,14 +41,17 @@ input {
 }
 
 input::placeholder {
-    color: red;
+    color: #C60000;
     text-align: center;
+    font-family: Orbitron;
+    font-weight: bold;
 }
 
 input[type="submit"] {
-    background-color: red;
+    background-color: #C60000;
     color: black;
-    font-weight: bold;
+    font-family: Post No Bills Jaffna ExtraBold;
+    font-weight: bolder;
     cursor: pointer;
     width: 150px;
     border-radius: 20px;
@@ -58,6 +61,18 @@ input[type="submit"]:hover {
     background-color: darkred;
 }
 
+#imagensContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 0px; 
+}
+
+#caveira, #mao {
+    width: 150px; 
+    margin-top: -40px;
+}
+
 table {
     margin: auto;
     margin-top: 20px;
@@ -65,16 +80,16 @@ table {
 }
 
 tr, td {
-    border: 1px solid red;
+    border: 1px solid #C60000;
     padding: 10px;
 }
 
 p strong {
-    color: red;
+    color: #C60000;
 }
 
 h1 {
-    color: red; 
+    color: #C60000; 
     text-align: center; 
     font-size: 3em;
     text-transform: uppercase; 
@@ -82,7 +97,7 @@ h1 {
 }
 
 h2 {
-    color: red;
+    color: #C60000;
     line-height: 1.6;
     max-width: 800px;
     text-align: justify;
@@ -124,19 +139,19 @@ p, h3 {
 .button-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espaço entre os botões */
-    margin-top: 40px; /* Espaço acima dos botões */
+    gap: 20px; 
+    margin-top: 40px; 
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    margin-top: 50px; /* Espaço entre o conteúdo e os botões */
+    margin-top: 50px; 
     padding: 20px;
 }
 
 .button-container a {
-    background-color: red;
+    background-color: #C60000;
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -154,7 +169,7 @@ p, h3 {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background-color: red;
+    background-color: #C60000;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -171,7 +186,7 @@ p, h3 {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background-color: red;
+    background-color: #C60000;
     border: none;
     border-radius: 5px;
     text-decoration: none;
