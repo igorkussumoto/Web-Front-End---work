@@ -20,6 +20,7 @@ document.getElementById("frmRegistry").addEventListener("submit", function (even
     saveUser(name, email, cpf, password);
     alert("Cadastro realizado com sucesso!");
     this.submit();
+    window.location.href = "login.html"; // Redireciona para a página de login
 });
 
 function isValidCPF(cpf) {
@@ -40,10 +41,7 @@ function isValidCPF(cpf) {
 }
 
 function saveUser(name, email, cpf, password) {
-    const table = document.getElementById("tblRegistry");
-    const row = table.insertRow();
-    row.insertCell(0).textContent = name;
-    row.insertCell(1).textContent = email;
-    row.insertCell(2).textContent = cpf;
-    row.insertCell(3).textContent = password;
+    const users = JSON.parse(localStorage.getItem("users")) || []; // Pega os usuários salvos ou inicia um array vazio
+    users.push({ name, email, cpf, password }); // Adiciona um novo usuário
+    localStorage.setItem("users", JSON.stringify(users)); // Salva no localStorage
 }
