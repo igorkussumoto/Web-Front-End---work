@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="../styles/reset.css"/>
+    <link rel="stylesheet" href="../styles/vars.css"/>
+    <link rel="stylesheet" href="../styles/registry.css"/>
     <title>Cadastrar Usuário</title>
   </head>
   <body>
     <form id="frmRegistry">
       <h1>Cadastro</h1>
       <div id="imagensContainer">
-        <img src="imagens/skull-solid (2).svg" alt="Caveira" id="caveira">
-        <img src="imagens/hand-holding-solid (2).svg" alt="Mão" id="mao">
+        <img src="../imagens/skull-solid (2).svg" alt="Caveira" id="caveira">
+        <img src="../imagens/hand-holding-solid (2).svg" alt="Mão" id="mao">
       </div>
       <input id="iptName" placeholder="Nome do Usuário" />
       <input id="iptEmail" type="email" placeholder="Email do Usuário" />
       <input id="iptCpf" type="number" placeholder="CPF do Usuário" />
       <input id="iptPassword" type="password" placeholder="Senha do Usuário" />
       <input id="iptPasswordRepeat" type="password" placeholder="Repita a Senha" />
-      <input type="submit" value="Salvar" />
+      <input class="submit-button" type="submit" value="Salvar" />
     </form>
 
     <table>
       <tbody id="tblRegistry"></tbody>
     </table>
 
-    <script src="../Registry.js"></script>
+    <script src="../scripts/registry.js"></script>
   </body>
 </html>

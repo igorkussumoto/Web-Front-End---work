@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Stick+No+Bills:wght@200..800&display=swap');
+
+:root {
+    /* Colors */
+    --bg-color: #C60000;
+    --font-color-strong: #C60000;
+    --font-color-text: #FFFFFF;
+    --bg-input-color: #0000;
+    --bg-wallpaper-color: #070707;
+    --bg-container-color: #131313;
+    --bg-button-hover-color: #5C0000;
+    --bg-button-color: #0000;
+
+  
+
+    /* Fonts */
+    --font-news-cycle: "News Cycle", serif;
+    --font-stick-no-bills: "Stick No Bills", serif;
+  }
