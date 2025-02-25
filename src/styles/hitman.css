@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;700&display=swap');
+
+body {
+    background-color: var(--bg-wallpaper-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titulo{
+    font-family: var(--font-stick-no-bills);
+    font-size: 5rem;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.container-solo {
+    background-color: var(--bg-container-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--bg-color);
+    box-shadow: 0 0 10px var(--bg-button-hover-color);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: var(--font-color-strong);
+    font-family: var(--font-news-cycle);
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.imagens {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid var(--bg-container-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+}
+
+.imagens:hover {
+    transform: scale(1.1);
+}
+.submit-button {
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--bg-wallpaper-color);
+    font-family: "Stick No Bills", sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.submit-button:hover {
+    background-color: var(--bg-button-hover-color);
+    color: var(--font-color-text);
+    transform: scale(1.1);
+}
+
+
+
