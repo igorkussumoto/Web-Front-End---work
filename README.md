@@ -33,7 +33,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 👥 Equipe
 
-- Eric Endres
-- Igor Kussumoto
-- Manuela Bechara
+- [Eric Endres](https://github.com/eric-endres)
+- [Igor Kussumoto](https://github.com/igorkussumoto)
+- [Manuela Bechara](https://github.com/binbaragi)
 
